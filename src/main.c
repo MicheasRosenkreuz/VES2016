@@ -55,14 +55,15 @@ int main (void)
 
     char buffIn[16];
     int buffCnt = 0;
+    char *token;  // temporary string for str split
     char *delimiter = " ";
-    char *token;
-    int led_id;
-    int led_period;
-    uint isSet;
-    int leds[] = {0,0,0,0,0,0};
-    int led_tics[] = {0,0,0,0,0,0};
-    int led_state[] = {0,0,0,0,0,0};
+    char cmd[4];  // SET/CLR
+    int led_id;  // id of LED
+    int led_period; // period of blinking
+    uint isSet;  // is SET command obtained
+    int leds[] = {0,0,0,0,0,0};  // Enabled LEDs
+    int led_tics[] = {0,0,0,0,0,0};  // Period in ms for each LED
+    int led_state[] = {0,0,0,0,0,0};  // State of blink for each LED
 
 
     while (1){
@@ -87,26 +88,38 @@ int main (void)
            ){
             buffIn[buffCnt-1] = 0;
             if (buffIn[0] != 0){
+                printf ("\>>> %s\n", buffIn);
 /////////////////////////////////////////////////////////////////////////////
-                printf ("\nPrikaz: %s\n", buffIn);
-
+                // parse cmd
                 token = strtok(buffIn, delimiter);
+                cmd = strcpy(token, "\0");
+                token = strtok(NULL, delimiter);
+                led_id = atoi(token);
+                token = strtok(NULL, delimiter);
+                led_period = atoi(token);
+
                 if(strcmp(token, "SET") == 0){
                     isSet = 1;
                 }if(strcmp(token, "CLR") == 0){
                     isSet = 0;
                 }
-                token = strtok(NULL, delimiter);
-                led_id = atoi(token);
                 leds[led_id] = isSet;
-                token = strtok(NULL, delimiter);
-                led_period = atoi(token);
                 if(isSet){
                     led_tics[led_id] = led_period;
-                }/*
-                for(i=0 ; i<6; i++){
+                }
+                // DBG Info
+                printf("DBG> \ncmd: %s %d %d\nisSet: %d\n", cmd, led_id, led_period, isSet);
+                printf("Enabled LEDs [leds]: ");
+                for(i=0 ; i<6; i++)
                     printf("%d", leds[i]);
-                }*/
+                printf("Period in ms [led_tics]");
+                for(i=0 ; i<6; i++)
+                    printf("%d,", led_tics[i]);
+                printf("State of blink [led_state]");
+                for(i=0 ; i<6; i++)
+                    printf("%d", led_state[i]);
+
+
             }
             memset(buffIn, 0, sizeof(buffIn));
             buffCnt = 0;
