@@ -1,0 +1,139 @@
+# depslib dependency file v1.0
+1445956728 source:r:\_tul\ves\cv10\examplepwm\drivers\cpu\adc.c
+	"board.h"
+	"adc.h"
+	<assert.h>
+
+1478614668 r:\_tul\ves\cv10\examplepwm\h\board.h
+	"AT91SAM9260.h"
+	"pio.h"
+	"cp15.h"
+	"trace.h"
+
+1229607882 r:\_tul\ves\cv10\examplepwm\h\at91sam9260.h
+
+1349343910 r:\_tul\ves\cv10\examplepwm\h\pio.h
+	<board.h>
+
+1229607882 r:\_tul\ves\cv10\examplepwm\h\cp15.h
+
+1348829122 r:\_tul\ves\cv10\examplepwm\h\trace.h
+	<board.h>
+	<dbgu.h>
+	<pio.h>
+	<stdio.h>
+
+1229607882 r:\_tul\ves\cv10\examplepwm\h\dbgu.h
+
+1229611380 r:\_tul\ves\cv10\examplepwm\drivers\cpu\adc.h
+
+1229607882 r:\_tul\ves\cv10\examplepwm\h\assert.h
+	<stdio.h>
+	"trace.h"
+
+1229607946 source:r:\_tul\ves\cv10\examplepwm\drivers\cpu\aic.c
+	"aic.h"
+	<board.h>
+
+1229607946 r:\_tul\ves\cv10\examplepwm\drivers\cpu\aic.h
+	<board.h>
+
+1229607946 source:r:\_tul\ves\cv10\examplepwm\drivers\cpu\pit.c
+	"pit.h"
+	<board.h>
+
+1229607946 r:\_tul\ves\cv10\examplepwm\drivers\cpu\pit.h
+
+1229607882 source:r:\_tul\ves\cv10\examplepwm\drivers\cpu\tc.c
+	"tc.h"
+
+1229607882 r:\_tul\ves\cv10\examplepwm\drivers\cpu\tc.h
+	<board.h>
+
+1478614703 source:r:\_tul\ves\cv10\examplepwm\drivers\cpu\timers.c
+	"..\..\h\board.h"
+	"pit.h"
+	"aic.h"
+	"timers.h"
+	<stdint.h>
+
+1349717608 r:\_tul\ves\cv10\examplepwm\drivers\cpu\timers.h
+
+1349717778 source:r:\_tul\ves\cv10\examplepwm\src\board_lowlevel.c
+	"board.h"
+	"board_memories.h"
+	<pmc.h>
+
+1229607882 r:\_tul\ves\cv10\examplepwm\h\board_memories.h
+
+1229607882 r:\_tul\ves\cv10\examplepwm\h\pmc.h
+
+1348829016 source:r:\_tul\ves\cv10\examplepwm\src\board_memories.c
+	<board.h>
+	<pio.h>
+
+1479825685 source:r:\_tul\ves\cv10\examplepwm\src\commandui.c
+	<string.h>
+	<stdint.h>
+	"pio.h"
+	"adc.h"
+	"dbguart.h"
+	"CommandUI.h"
+
+1474018741 r:\_tul\ves\cv10\examplepwm\src\dbguart.h
+
+1478619155 r:\_tul\ves\cv10\examplepwm\src\commandui.h
+
+1349348930 source:r:\_tul\ves\cv10\examplepwm\src\cp15.c
+	<board.h>
+	<trace.h>
+	"cp15.h"
+	<intrinsics.h>
+
+1229607826 source:r:\_tul\ves\cv10\examplepwm\src\cp15_asm.s
+	"board.h"
+
+1349352202 source:r:\_tul\ves\cv10\examplepwm\src\dbgu.c
+	"dbgu.h"
+	<stdarg.h>
+	<board.h>
+	<stdio.h>
+
+1478616180 source:r:\_tul\ves\cv10\examplepwm\src\dbguart.c
+	<string.h>
+	"pio.h"
+	<stdarg.h>
+	<stdio.h>
+	<inttypes.h>
+	"DbgUart.h"
+
+1481642082 source:r:\_tul\ves\cv10\examplepwm\src\main.c
+	<math.h>
+	<stdint.h>
+	<string.h>
+	"pio.h"
+	"cp15.h"
+	"trace.h"
+	"..\Drivers\cpu\timers.h"
+	"dbguart.h"
+	"CommandUI.h"
+	"adc.h"
+
+1349343930 source:r:\_tul\ves\cv10\examplepwm\src\pio.c
+	"pio.h"
+	<board.h>
+
+1348829134 source:r:\_tul\ves\cv10\examplepwm\src\pmc.c
+	"pmc.h"
+	<board.h>
+	<assert.h>
+	<trace.h>
+	<cp15.h>
+
+1229607882 source:r:\_tul\ves\cv10\examplepwm\src\stdio.c
+	<stdio.h>
+	<stdarg.h>
+
+1349719790 source:r:\_tul\ves\cv10\examplepwm\src\board_cstartup.s
+	"board.h"
+

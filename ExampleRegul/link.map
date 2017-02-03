@@ -1,0 +1,824 @@
+Archive member included because of file (symbol)
+
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+                              Debug\src\main.o (exp)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+                              Debug\src\main.o (log)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+                              d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o) (__ieee754_exp)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+                              d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o) (__ieee754_log)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+                              d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o) (finite)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+                              d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o) (__fpclassifyd)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_lib_ver.o)
+                              d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o) (__fdlib_version)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+                              d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o) (matherr)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+                              d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o) (nan)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_udivsi3.o)
+                              Debug\Drivers\cpu\adc.o (__aeabi_uidiv)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_dvmd_tls.o)
+                              d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_addsubdf3.o)
+                              Debug\src\main.o (__aeabi_dsub)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_muldivdf3.o)
+                              Debug\src\main.o (__aeabi_dmul)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_cmpdf2.o)
+                              d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o) (__aeabi_dcmpeq)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_fixdfsi.o)
+                              Debug\src\main.o (__aeabi_d2iz)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+                              d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o) (__errno)
+d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+                              Debug\src\main.o (memset)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 Debug\Drivers\cpu\adc.o
+ .bss           0x00000000        0x0 Debug\Drivers\cpu\adc.o
+ .data          0x00000000        0x0 Debug\Drivers\cpu\aic.o
+ .bss           0x00000000        0x0 Debug\Drivers\cpu\aic.o
+ .data          0x00000000        0x0 Debug\Drivers\cpu\dbgu.o
+ .bss           0x00000000        0x0 Debug\Drivers\cpu\dbgu.o
+ .data          0x00000000        0x0 Debug\Drivers\cpu\pio.o
+ .bss           0x00000000        0x0 Debug\Drivers\cpu\pio.o
+ .data          0x00000000        0x0 Debug\Drivers\cpu\pit.o
+ .bss           0x00000000        0x0 Debug\Drivers\cpu\pit.o
+ .text          0x00000000      0x2b8 Debug\Drivers\cpu\pmc.o
+ .data          0x00000000        0x0 Debug\Drivers\cpu\pmc.o
+ .bss           0x00000000        0x0 Debug\Drivers\cpu\pmc.o
+ .rodata        0x00000000      0x110 Debug\Drivers\cpu\pmc.o
+ .data          0x00000000        0x0 Debug\Drivers\cpu\timers.o
+ .data          0x00000000        0x0 Debug\src\board_cstartup.o
+ .bss           0x00000000        0x0 Debug\src\board_cstartup.o
+ .data          0x00000000        0x0 Debug\src\board_lowlevel.o
+ .bss           0x00000000        0x0 Debug\src\board_lowlevel.o
+ .data          0x00000000        0x0 Debug\src\board_memories.o
+ .bss           0x00000000        0x0 Debug\src\board_memories.o
+ .data          0x00000000        0x0 Debug\src\cp15.o
+ .bss           0x00000000        0x0 Debug\src\cp15.o
+ .data          0x00000000        0x0 Debug\src\cp15_asm.o
+ .bss           0x00000000        0x0 Debug\src\cp15_asm.o
+ .data          0x00000000        0x0 Debug\src\main.o
+ .bss           0x00000000        0x0 Debug\src\stdio.o
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+ .text          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_lib_ver.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_lib_ver.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_fixdfsi.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .data          0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sram0            0x00200000         0x00001000         w !xr
+sram1            0x00300000         0x00001000         w !xr
+sdram            0x20000000         0x01000000         w !xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD Debug\Drivers\cpu\adc.o
+LOAD Debug\Drivers\cpu\aic.o
+LOAD Debug\Drivers\cpu\dbgu.o
+LOAD Debug\Drivers\cpu\pio.o
+LOAD Debug\Drivers\cpu\pit.o
+LOAD Debug\Drivers\cpu\pmc.o
+LOAD Debug\Drivers\cpu\timers.o
+LOAD Debug\src\board_cstartup.o
+LOAD Debug\src\board_lowlevel.o
+LOAD Debug\src\board_memories.o
+LOAD Debug\src\cp15.o
+LOAD Debug\src\cp15_asm.o
+LOAD Debug\src\main.o
+LOAD Debug\src\stdio.o
+LOAD d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libstdc++.a
+LOAD d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a
+START GROUP
+LOAD d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a
+LOAD d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a
+END GROUP
+
+.fixed          0x20000000     0x5a94
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sfixed = .
+ *(.text*)
+ .text          0x20000000      0x7b8 Debug\Drivers\cpu\adc.o
+                0x20000070                ADC_Initialize
+                0x200002b8                ADC_GetModeReg
+                0x200002e0                ADC_EnableChannel
+                0x20000340                ADC_DisableChannel
+                0x200003a0                ADC_GetChannelStatus
+                0x200003c8                ADC_StartConversion
+                0x200003f0                ADC_SoftReset
+                0x20000418                ADC_GetLastConvertedData
+                0x20000440                ADC_GetConvertedData
+                0x200004f8                ADC_EnableIt
+                0x200005b0                ADC_EnableDataReadyIt
+                0x200005d8                ADC_DisableIt
+                0x20000690                ADC_GetStatus
+                0x200006b8                ADC_GetInterruptMaskStatus
+                0x200006e0                ADC_IsInterruptMasked
+                0x20000718                ADC_IsStatusSet
+                0x20000750                ADC_IsChannelInterruptStatusSet
+ .text          0x200007b8       0xe8 Debug\Drivers\cpu\aic.o
+                0x200007b8                AIC_ConfigureIT
+                0x20000838                AIC_EnableIT
+                0x2000086c                AIC_DisableIT
+ .text          0x200008a0      0x2a8 Debug\Drivers\cpu\dbgu.o
+                0x200008a0                DBGU_Configure
+                0x2000093c                DBGU_PutChar
+                0x200009a4                DBGU_IsRxReady
+                0x200009cc                DBGU_GetChar
+                0x20000a10                fputc
+                0x20000a84                fputs
+                0x20000b08                putchar
+ .text          0x20000b48      0x550 Debug\Drivers\cpu\pio.o
+                0x20000b48                PIO_SetPeripheralA
+                0x20000d90                PIO_Configure
+                0x20000f38                PIO_Set
+                0x20000f68                PIO_Clear
+                0x20000f98                PIO_Get
+                0x20001020                PIO_GetOutputDataStatus
+                0x2000106c                PIO_GetISR
+ .text          0x20001098      0x1d4 Debug\Drivers\cpu\pit.o
+                0x20001098                PIT_Init
+                0x20001108                PIT_SetPIV
+                0x2000114c                PIT_Enable
+                0x2000117c                PIT_EnableIT
+                0x200011ac                PIT_DisableIT
+                0x200011dc                PIT_GetMode
+                0x20001200                PIT_GetStatus
+                0x20001224                PIT_GetPIIR
+                0x20001248                PIT_GetPIVR
+ .text          0x2000126c      0x124 Debug\Drivers\cpu\timers.o
+                0x2000126c                _I_Disable
+                0x20001290                _I_Enable
+                0x200012b4                ISR_Pit
+                0x2000130c                TimerPeriodicInit
+                0x20001358                GetTickCount
+ .text          0x20001390       0xc0 Debug\src\board_cstartup.o
+                0x20001390                entry
+ .text          0x20001450      0x134 Debug\src\board_lowlevel.o
+                0x20001450                defaultSpuriousHandler
+                0x2000145c                defaultFiqHandler
+                0x20001468                defaultIrqHandler
+                0x20001474                LowLevelInit
+ .text          0x20001584      0x8dc Debug\src\board_memories.o
+                0x20001584                BOARD_RemapRom
+                0x200015a8                BOARD_RemapRam
+                0x200015cc                BOARD_ConfigureSdram
+                0x20001850                BOARD_ConfigureSdram48MHz
+                0x20001ad0                BOARD_ConfigureNandFlash
+                0x20001bb0                BOARD_ConfigureNandFlash48MHz
+                0x20001c90                BOARD_ConfigureNorFlash
+                0x20001d78                BOARD_ConfigureNorFlash48MHz
+ .text          0x20001e60      0x300 Debug\src\cp15.o
+                0x20001e60                CP15_Is_I_CacheEnabled
+                0x20001e98                CP15_Enable_I_Cache
+                0x20001ef8                CP15_Disable_I_Cache
+                0x20001f58                CP15_Is_MMUEnabled
+                0x20001f84                CP15_EnableMMU
+                0x20001fe4                CP15_DisableMMU
+                0x20002054                CP15_Is_DCacheEnabled
+                0x20002080                CP15_Enable_D_Cache
+                0x20002100                CP15_Disable_D_Cache
+ .text          0x20002160       0x40 Debug\src\cp15_asm.o
+                0x20002160                _readControlRegister
+                0x2000216c                _writeControlRegister
+                0x20002174                _waitForInterrupt
+                0x20002180                _writeTTB
+                0x20002188                _writeDomain
+                0x20002190                _writeITLBLockdown
+                0x20002198                _prefetchICacheLine
+ .text          0x200021a0      0x970 Debug\src\main.o
+                0x200021a0                LED_Set
+                0x200022d0                VypisPametiW
+                0x20002380                computeT
+                0x200025e8                main
+ .text          0x20002b10      0xbb4 Debug\src\stdio.o
+                0x20002b10                PutChar
+                0x20002b48                PutString
+                0x20002bc0                PutUnsignedInt
+                0x20002ce0                PutSignedInt
+                0x20002eb0                PutHexa
+                0x2000302c                vsnprintf
+                0x20003434                snprintf
+                0x20003484                vsprintf
+                0x200034c4                vfprintf
+                0x2000356c                vprintf
+                0x200035b4                fprintf
+                0x200035fc                printf
+                0x2000363c                sprintf
+                0x20003684                puts
+ *fill*         0x200036c4        0x4 00
+ .text          0x200036c8      0x190 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+                0x200036c8                exp
+ .text          0x20003858      0x1a0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+                0x20003858                log
+ .text          0x200039f8      0x458 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+                0x200039f8                __ieee754_exp
+ .text          0x20003e50      0x5e8 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+                0x20003e50                __ieee754_log
+ .text          0x20004438       0x14 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+                0x20004438                finite
+ .text          0x2000444c       0x8c d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+                0x2000444c                __fpclassifyd
+ .text          0x200044d8        0x8 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+                0x200044d8                matherr
+ .text          0x200044e0       0x10 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+                0x200044e0                nan
+ .text          0x200044f0      0x114 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_udivsi3.o)
+                0x200044f0                __aeabi_uidiv
+                0x200044f0                __udivsi3
+                0x200045e4                __aeabi_uidivmod
+ .text          0x20004604        0x4 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_dvmd_tls.o)
+                0x20004604                __aeabi_idiv0
+                0x20004604                __aeabi_ldiv0
+ .text          0x20004608      0x41c d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_addsubdf3.o)
+                0x20004608                __aeabi_drsub
+                0x20004610                __aeabi_dsub
+                0x20004610                __subdf3
+                0x20004614                __aeabi_dadd
+                0x20004614                __adddf3
+                0x20004924                __floatunsidf
+                0x20004924                __aeabi_ui2d
+                0x20004948                __floatsidf
+                0x20004948                __aeabi_i2d
+                0x20004970                __aeabi_f2d
+                0x20004970                __extendsfdf2
+                0x200049b0                __floatundidf
+                0x200049b0                __aeabi_ul2d
+                0x200049c4                __floatdidf
+                0x200049c4                __aeabi_l2d
+ .text          0x20004a24      0x49c d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_muldivdf3.o)
+                0x20004a24                __aeabi_dmul
+                0x20004a24                __muldf3
+                0x20004cb4                __divdf3
+                0x20004cb4                __aeabi_ddiv
+ .text          0x20004ec0      0x144 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_cmpdf2.o)
+                0x20004ec0                __gtdf2
+                0x20004ec0                __gedf2
+                0x20004ec8                __ltdf2
+                0x20004ec8                __ledf2
+                0x20004ed0                __nedf2
+                0x20004ed0                __eqdf2
+                0x20004ed0                __cmpdf2
+                0x20004f58                __aeabi_cdrcmple
+                0x20004f74                __aeabi_cdcmpeq
+                0x20004f74                __aeabi_cdcmple
+                0x20004f8c                __aeabi_dcmpeq
+                0x20004fa4                __aeabi_dcmplt
+                0x20004fbc                __aeabi_dcmple
+                0x20004fd4                __aeabi_dcmpge
+                0x20004fec                __aeabi_dcmpgt
+ .text          0x20005004       0x5c d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_fixdfsi.o)
+                0x20005004                __aeabi_d2iz
+                0x20005004                __fixdfsi
+ .text          0x20005060       0x10 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+                0x20005060                __errno
+ .text          0x20005070      0x100 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+                0x20005070                memset
+ *(.rodata*)
+ .rodata        0x20005170      0x14c Debug\Drivers\cpu\adc.o
+ .rodata        0x200052bc       0x18 Debug\src\board_memories.o
+ .rodata        0x200052d4      0x17c Debug\src\cp15.o
+ .rodata        0x20005450      0x1ac Debug\src\main.o
+ .rodata        0x200055fc       0x24 Debug\src\stdio.o
+ .rodata.str1.4
+                0x20005620        0x4 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+ .rodata.str1.4
+                0x20005624        0x8 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+ *fill*         0x2000562c        0x4 00
+ .rodata        0x20005630       0x30 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.data)
+ .data          0x20005660      0x430 Debug\src\stdio.o
+                0x20005660                r
+                0x20005a88                _impure_ptr
+ .data          0x20005a90        0x1 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_lib_ver.o)
+                0x20005a90                __fdlib_version
+                0x20005a94                . = ALIGN (0x4)
+ *fill*         0x20005a91        0x3 00
+                0x20005a94                _efixed = .
+
+.vfp11_veneer   0x00000000        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000000        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.prerelocate    0x00000000        0x0 load address 0x20005a94
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _sprerelocate = .
+                0x00000000                . = ALIGN (0x4)
+                0x00000000                _eprerelocate = .
+
+.postrelocate   0x00200000       0x6c load address 0x20005a94
+                0x00200000                . = ALIGN (0x4)
+                0x00200000                _spostrelocate = .
+ *(.vectors)
+ .vectors       0x00200000       0x6c Debug\src\board_cstartup.o
+ *(.ramfunc)
+                0x0020006c                . = ALIGN (0x4)
+                0x0020006c                _epostrelocate = .
+
+.bss            0x20005a94       0x5c
+                0x20005a94                _szero = .
+ *(.bss)
+ .bss           0x20005a94        0x4 Debug\Drivers\cpu\timers.o
+ .bss           0x20005a98       0x58 Debug\src\main.o
+                0x20005a98                buf
+                0x20005aa8                buffCnt
+                0x20005aac                buffIn
+                0x20005af0                . = ALIGN (0x4)
+                0x20005af0                _ezero = .
+                0x21000000                _sstack = 0x21000000
+                0x20005af0                end = .
+OUTPUT(Debug\xxx.elf elf32-littlearm)
+
+.debug_abbrev   0x00000000     0x1750
+ .debug_abbrev  0x00000000      0x14e Debug\Drivers\cpu\adc.o
+ .debug_abbrev  0x0000014e       0xb9 Debug\Drivers\cpu\aic.o
+ .debug_abbrev  0x00000207      0x1d2 Debug\Drivers\cpu\dbgu.o
+ .debug_abbrev  0x000003d9      0x17e Debug\Drivers\cpu\pio.o
+ .debug_abbrev  0x00000557       0xc6 Debug\Drivers\cpu\pit.o
+ .debug_abbrev  0x0000061d       0xe2 Debug\Drivers\cpu\pmc.o
+ .debug_abbrev  0x000006ff       0x92 Debug\Drivers\cpu\timers.o
+ .debug_abbrev  0x00000791       0x12 Debug\src\board_cstartup.o
+ .debug_abbrev  0x000007a3       0xbf Debug\src\board_lowlevel.o
+ .debug_abbrev  0x00000862      0x157 Debug\src\board_memories.o
+ .debug_abbrev  0x000009b9       0x7e Debug\src\cp15.o
+ .debug_abbrev  0x00000a37       0x14 Debug\src\cp15_asm.o
+ .debug_abbrev  0x00000a4b      0x19d Debug\src\main.o
+ .debug_abbrev  0x00000be8      0x251 Debug\src\stdio.o
+ .debug_abbrev  0x00000e39       0xe5 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+ .debug_abbrev  0x00000f1e       0xcf d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+ .debug_abbrev  0x00000fed      0x13d d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ .debug_abbrev  0x0000112a      0x11a d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+ .debug_abbrev  0x00001244       0x6c d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+ .debug_abbrev  0x000012b0       0xc5 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+ .debug_abbrev  0x00001375       0x53 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_lib_ver.o)
+ .debug_abbrev  0x000013c8       0x97 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+ .debug_abbrev  0x0000145f       0x6f d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+ .debug_abbrev  0x000014ce       0x14 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x000014e2       0x14 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x000014f6       0x14 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_addsubdf3.o)
+ .debug_abbrev  0x0000150a       0x14 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_muldivdf3.o)
+ .debug_abbrev  0x0000151e       0x14 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_cmpdf2.o)
+ .debug_abbrev  0x00001532       0x14 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_fixdfsi.o)
+ .debug_abbrev  0x00001546      0x16e d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .debug_abbrev  0x000016b4       0x9c d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+
+.debug_info     0x00000000     0x681d
+ .debug_info    0x00000000      0x818 Debug\Drivers\cpu\adc.o
+ .debug_info    0x00000818      0x2b4 Debug\Drivers\cpu\aic.o
+ .debug_info    0x00000acc      0xc5f Debug\Drivers\cpu\dbgu.o
+ .debug_info    0x0000172b      0x715 Debug\Drivers\cpu\pio.o
+ .debug_info    0x00001e40      0x1d5 Debug\Drivers\cpu\pit.o
+ .debug_info    0x00002015      0x2df Debug\Drivers\cpu\pmc.o
+ .debug_info    0x000022f4      0x128 Debug\Drivers\cpu\timers.o
+ .debug_info    0x0000241c       0x51 Debug\src\board_cstartup.o
+ .debug_info    0x0000246d      0x382 Debug\src\board_lowlevel.o
+ .debug_info    0x000027ef      0xab5 Debug\src\board_memories.o
+ .debug_info    0x000032a4      0x1e3 Debug\src\cp15.o
+ .debug_info    0x00003487       0x4f Debug\src\cp15_asm.o
+ .debug_info    0x000034d6      0x82a Debug\src\main.o
+ .debug_info    0x00003d00      0xeb5 Debug\src\stdio.o
+ .debug_info    0x00004bb5      0x1ab d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+ .debug_info    0x00004d60      0x17e d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+ .debug_info    0x00004ede      0x366 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ .debug_info    0x00005244      0x2f8 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+ .debug_info    0x0000553c       0xd0 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+ .debug_info    0x0000560c      0x142 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+ .debug_info    0x0000574e       0xc1 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_lib_ver.o)
+ .debug_info    0x0000580f      0x131 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+ .debug_info    0x00005940       0xcd d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+ .debug_info    0x00005a0d       0x9a d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_udivsi3.o)
+ .debug_info    0x00005aa7       0x9a d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00005b41       0x99 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_addsubdf3.o)
+ .debug_info    0x00005bda       0x99 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_muldivdf3.o)
+ .debug_info    0x00005c73       0x99 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_cmpdf2.o)
+ .debug_info    0x00005d0c       0x99 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_fixdfsi.o)
+ .debug_info    0x00005da5      0x964 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .debug_info    0x00006709      0x114 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+
+.debug_line     0x00000000     0x1caa
+ .debug_line    0x00000000      0x14e Debug\Drivers\cpu\adc.o
+ .debug_line    0x0000014e       0x5f Debug\Drivers\cpu\aic.o
+ .debug_line    0x000001ad      0x196 Debug\Drivers\cpu\dbgu.o
+ .debug_line    0x00000343       0xe5 Debug\Drivers\cpu\pio.o
+ .debug_line    0x00000428       0x8a Debug\Drivers\cpu\pit.o
+ .debug_line    0x000004b2       0xab Debug\Drivers\cpu\pmc.o
+ .debug_line    0x0000055d       0x7e Debug\Drivers\cpu\timers.o
+ .debug_line    0x000005db       0x90 Debug\src\board_cstartup.o
+ .debug_line    0x0000066b       0x9c Debug\src\board_lowlevel.o
+ .debug_line    0x00000707      0x119 Debug\src\board_memories.o
+ .debug_line    0x00000820       0x79 Debug\src\cp15.o
+ .debug_line    0x00000899       0x55 Debug\src\cp15_asm.o
+ .debug_line    0x000008ee      0x115 Debug\src\main.o
+ .debug_line    0x00000a03      0x22d Debug\src\stdio.o
+ .debug_line    0x00000c30       0xd4 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+ .debug_line    0x00000d04       0xe1 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+ .debug_line    0x00000de5      0x15d d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ .debug_line    0x00000f42      0x1b9 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+ .debug_line    0x000010fb      0x108 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+ .debug_line    0x00001203      0x12d d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+ .debug_line    0x00001330       0x62 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_lib_ver.o)
+ .debug_line    0x00001392       0xb2 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+ .debug_line    0x00001444       0xad d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+ .debug_line    0x000014f1       0x93 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_udivsi3.o)
+ .debug_line    0x00001584       0x6a d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000015ee      0x16f d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_addsubdf3.o)
+ .debug_line    0x0000175d      0x187 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_muldivdf3.o)
+ .debug_line    0x000018e4       0xb5 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_cmpdf2.o)
+ .debug_line    0x00001999       0x7f d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_fixdfsi.o)
+ .debug_line    0x00001a18      0x12b d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .debug_line    0x00001b43      0x167 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+
+.debug_loc      0x00000000     0x1bf0
+ .debug_loc     0x00000000      0x318 Debug\Drivers\cpu\adc.o
+ .debug_loc     0x00000318       0x84 Debug\Drivers\cpu\aic.o
+ .debug_loc     0x0000039c      0x134 Debug\Drivers\cpu\dbgu.o
+ .debug_loc     0x000004d0      0x1b8 Debug\Drivers\cpu\pio.o
+ .debug_loc     0x00000688      0x18c Debug\Drivers\cpu\pit.o
+ .debug_loc     0x00000814      0x160 Debug\Drivers\cpu\pmc.o
+ .debug_loc     0x00000974       0xdc Debug\Drivers\cpu\timers.o
+ .debug_loc     0x00000a50       0xb0 Debug\src\board_lowlevel.o
+ .debug_loc     0x00000b00      0x160 Debug\src\board_memories.o
+ .debug_loc     0x00000c60      0x18c Debug\src\cp15.o
+ .debug_loc     0x00000dec       0xb0 Debug\src\main.o
+ .debug_loc     0x00000e9c      0x298 Debug\src\stdio.o
+ .debug_loc     0x00001134       0x6d d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+ .debug_loc     0x000011a1       0x6d d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+ .debug_loc     0x0000120e      0x2f5 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ .debug_loc     0x00001503      0x49e d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+ .debug_loc     0x000019a1       0x18 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+ .debug_loc     0x000019b9       0x9e d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+ .debug_loc     0x00001a57       0x13 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+ .debug_loc     0x00001a6a       0x13 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+ .debug_loc     0x00001a7d      0x173 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+
+.debug_pubnames
+                0x00000000      0x9ad
+ .debug_pubnames
+                0x00000000      0x19e Debug\Drivers\cpu\adc.o
+ .debug_pubnames
+                0x0000019e       0x49 Debug\Drivers\cpu\aic.o
+ .debug_pubnames
+                0x000001e7       0x7a Debug\Drivers\cpu\dbgu.o
+ .debug_pubnames
+                0x00000261       0x8c Debug\Drivers\cpu\pio.o
+ .debug_pubnames
+                0x000002ed       0xa2 Debug\Drivers\cpu\pit.o
+ .debug_pubnames
+                0x0000038f       0xe7 Debug\Drivers\cpu\pmc.o
+ .debug_pubnames
+                0x00000476       0x62 Debug\Drivers\cpu\timers.o
+ .debug_pubnames
+                0x000004d8       0x6a Debug\src\board_lowlevel.o
+ .debug_pubnames
+                0x00000542       0xeb Debug\src\board_memories.o
+ .debug_pubnames
+                0x0000062d       0xe7 Debug\src\cp15.o
+ .debug_pubnames
+                0x00000714       0x64 Debug\src\main.o
+ .debug_pubnames
+                0x00000778       0xdf Debug\src\stdio.o
+ .debug_pubnames
+                0x00000857       0x1a d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+ .debug_pubnames
+                0x00000871       0x1a d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+ .debug_pubnames
+                0x0000088b       0x24 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ .debug_pubnames
+                0x000008af       0x24 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+ .debug_pubnames
+                0x000008d3       0x1d d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+ .debug_pubnames
+                0x000008f0       0x24 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+ .debug_pubnames
+                0x00000914       0x26 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_lib_ver.o)
+ .debug_pubnames
+                0x0000093a       0x1e d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+ .debug_pubnames
+                0x00000958       0x1a d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+ .debug_pubnames
+                0x00000972       0x1e d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .debug_pubnames
+                0x00000990       0x1d d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+
+.debug_pubtypes
+                0x00000000      0x828
+ .debug_pubtypes
+                0x00000000       0x4d Debug\Drivers\cpu\adc.o
+ .debug_pubtypes
+                0x0000004d       0x30 Debug\Drivers\cpu\aic.o
+ .debug_pubtypes
+                0x0000007d      0x106 Debug\Drivers\cpu\dbgu.o
+ .debug_pubtypes
+                0x00000183       0x55 Debug\Drivers\cpu\pio.o
+ .debug_pubtypes
+                0x000001d8       0x32 Debug\Drivers\cpu\pit.o
+ .debug_pubtypes
+                0x0000020a       0x30 Debug\Drivers\cpu\pmc.o
+ .debug_pubtypes
+                0x0000023a       0x1f Debug\Drivers\cpu\timers.o
+ .debug_pubtypes
+                0x00000259       0x90 Debug\src\board_lowlevel.o
+ .debug_pubtypes
+                0x000002e9       0xcc Debug\src\board_memories.o
+ .debug_pubtypes
+                0x000003b5       0x12 Debug\src\cp15.o
+ .debug_pubtypes
+                0x000003c7       0x87 Debug\src\main.o
+ .debug_pubtypes
+                0x0000044e      0x11e Debug\src\stdio.o
+ .debug_pubtypes
+                0x0000056c       0x35 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+ .debug_pubtypes
+                0x000005a1       0x35 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+ .debug_pubtypes
+                0x000005d6       0x4a d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ .debug_pubtypes
+                0x00000620       0x4a d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+ .debug_pubtypes
+                0x0000066a       0x2f d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+ .debug_pubtypes
+                0x00000699       0x3c d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+ .debug_pubtypes
+                0x000006d5       0x27 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_lib_ver.o)
+ .debug_pubtypes
+                0x000006fc       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+ .debug_pubtypes
+                0x0000071c       0x12 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+ .debug_pubtypes
+                0x0000072e       0xdd d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .debug_pubtypes
+                0x0000080b       0x1d d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+
+.debug_aranges  0x00000000      0x3c8
+ .debug_aranges
+                0x00000000       0x20 Debug\Drivers\cpu\adc.o
+ .debug_aranges
+                0x00000020       0x20 Debug\Drivers\cpu\aic.o
+ .debug_aranges
+                0x00000040       0x20 Debug\Drivers\cpu\dbgu.o
+ .debug_aranges
+                0x00000060       0x20 Debug\Drivers\cpu\pio.o
+ .debug_aranges
+                0x00000080       0x20 Debug\Drivers\cpu\pit.o
+ .debug_aranges
+                0x000000a0       0x20 Debug\Drivers\cpu\pmc.o
+ .debug_aranges
+                0x000000c0       0x20 Debug\Drivers\cpu\timers.o
+ .debug_aranges
+                0x000000e0       0x28 Debug\src\board_cstartup.o
+ .debug_aranges
+                0x00000108       0x20 Debug\src\board_lowlevel.o
+ .debug_aranges
+                0x00000128       0x20 Debug\src\board_memories.o
+ .debug_aranges
+                0x00000148       0x20 Debug\src\cp15.o
+ .debug_aranges
+                0x00000168       0x20 Debug\src\cp15_asm.o
+ .debug_aranges
+                0x00000188       0x20 Debug\src\main.o
+ .debug_aranges
+                0x000001a8       0x20 Debug\src\stdio.o
+ .debug_aranges
+                0x000001c8       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+ .debug_aranges
+                0x000001e8       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+ .debug_aranges
+                0x00000208       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ .debug_aranges
+                0x00000228       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+ .debug_aranges
+                0x00000248       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+ .debug_aranges
+                0x00000268       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+ .debug_aranges
+                0x00000288       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+ .debug_aranges
+                0x000002a8       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+ .debug_aranges
+                0x000002c8       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x000002e8       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x00000308       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_addsubdf3.o)
+ .debug_aranges
+                0x00000328       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_muldivdf3.o)
+ .debug_aranges
+                0x00000348       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_cmpdf2.o)
+ .debug_aranges
+                0x00000368       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_fixdfsi.o)
+ .debug_aranges
+                0x00000388       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .debug_aranges
+                0x000003a8       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+
+.debug_str      0x00000000     0x1aca
+ .debug_str     0x00000000      0x406 Debug\Drivers\cpu\adc.o
+                                0x44e (size before relaxing)
+ .debug_str     0x00000406       0xfc Debug\Drivers\cpu\aic.o
+                                0x1c2 (size before relaxing)
+ .debug_str     0x00000502      0x509 Debug\Drivers\cpu\dbgu.o
+                                0x5e1 (size before relaxing)
+ .debug_str     0x00000a0b      0x20a Debug\Drivers\cpu\pio.o
+                                0x390 (size before relaxing)
+ .debug_str     0x00000c15       0xd3 Debug\Drivers\cpu\pit.o
+                                0x180 (size before relaxing)
+ .debug_str     0x00000ce8       0xc7 Debug\Drivers\cpu\pmc.o
+                                0x234 (size before relaxing)
+ .debug_str     0x00000daf       0x61 Debug\Drivers\cpu\timers.o
+                                0x11e (size before relaxing)
+ .debug_str     0x00000e10       0xd3 Debug\src\board_lowlevel.o
+                                0x284 (size before relaxing)
+ .debug_str     0x00000ee3      0x4a4 Debug\src\board_memories.o
+                                0x6b2 (size before relaxing)
+ .debug_str     0x00001387       0xc4 Debug\src\cp15.o
+                                0x171 (size before relaxing)
+ .debug_str     0x0000144b       0xb2 Debug\src\main.o
+                                0x3be (size before relaxing)
+ .debug_str     0x000014fd       0xbd Debug\src\stdio.o
+                                0x57e (size before relaxing)
+ .debug_str     0x000015ba      0x11a d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+                                0x1c1 (size before relaxing)
+ .debug_str     0x000016d4       0x36 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+                                0x1a9 (size before relaxing)
+ .debug_str     0x0000170a       0xab d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+                                0x1bc (size before relaxing)
+ .debug_str     0x000017b5       0x67 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+                                0x19c (size before relaxing)
+ .debug_str     0x0000181c       0x89 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+                                0x14c (size before relaxing)
+ .debug_str     0x000018a5       0x4d d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+                                0x175 (size before relaxing)
+ .debug_str     0x000018f2       0x3c d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_lib_ver.o)
+                                0x18c (size before relaxing)
+ .debug_str     0x0000192e       0x44 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+                                0x15e (size before relaxing)
+ .debug_str     0x00001972       0x38 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+                                0x134 (size before relaxing)
+ .debug_str     0x000019aa       0x85 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+                                0x4d5 (size before relaxing)
+ .debug_str     0x00001a2f       0x9b d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+                                0x137 (size before relaxing)
+
+.comment        0x00000000       0x11
+ .comment       0x00000000       0x11 Debug\Drivers\cpu\adc.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 Debug\Drivers\cpu\aic.o
+ .comment       0x00000000       0x12 Debug\Drivers\cpu\dbgu.o
+ .comment       0x00000000       0x12 Debug\Drivers\cpu\pio.o
+ .comment       0x00000000       0x12 Debug\Drivers\cpu\pit.o
+ .comment       0x00000000       0x12 Debug\Drivers\cpu\pmc.o
+ .comment       0x00000000       0x12 Debug\Drivers\cpu\timers.o
+ .comment       0x00000000       0x12 Debug\src\board_lowlevel.o
+ .comment       0x00000000       0x12 Debug\src\board_memories.o
+ .comment       0x00000000       0x12 Debug\src\cp15.o
+ .comment       0x00000000       0x12 Debug\src\main.o
+ .comment       0x00000000       0x12 Debug\src\stdio.o
+ .comment       0x00000000       0x12 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+ .comment       0x00000000       0x12 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+ .comment       0x00000000       0x12 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ .comment       0x00000000       0x12 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+ .comment       0x00000000       0x12 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+ .comment       0x00000000       0x12 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+ .comment       0x00000000       0x12 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_lib_ver.o)
+ .comment       0x00000000       0x12 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+ .comment       0x00000000       0x12 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+ .comment       0x00000000       0x12 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .comment       0x00000000       0x12 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x30 Debug\Drivers\cpu\adc.o
+ .ARM.attributes
+                0x00000030       0x30 Debug\Drivers\cpu\aic.o
+ .ARM.attributes
+                0x00000060       0x30 Debug\Drivers\cpu\dbgu.o
+ .ARM.attributes
+                0x00000090       0x30 Debug\Drivers\cpu\pio.o
+ .ARM.attributes
+                0x000000c0       0x30 Debug\Drivers\cpu\pit.o
+ .ARM.attributes
+                0x000000f0       0x30 Debug\Drivers\cpu\pmc.o
+ .ARM.attributes
+                0x00000120       0x30 Debug\Drivers\cpu\timers.o
+ .ARM.attributes
+                0x00000150       0x14 Debug\src\board_cstartup.o
+ .ARM.attributes
+                0x00000164       0x30 Debug\src\board_lowlevel.o
+ .ARM.attributes
+                0x00000194       0x30 Debug\src\board_memories.o
+ .ARM.attributes
+                0x000001c4       0x30 Debug\src\cp15.o
+ .ARM.attributes
+                0x000001f4       0x16 Debug\src\cp15_asm.o
+ .ARM.attributes
+                0x0000020a       0x30 Debug\src\main.o
+ .ARM.attributes
+                0x0000023a       0x30 Debug\src\stdio.o
+ .ARM.attributes
+                0x0000026a       0x30 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+ .ARM.attributes
+                0x0000029a       0x30 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+ .ARM.attributes
+                0x000002ca       0x30 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ .ARM.attributes
+                0x000002fa       0x30 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+ .ARM.attributes
+                0x0000032a       0x30 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+ .ARM.attributes
+                0x0000035a       0x30 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+ .ARM.attributes
+                0x0000038a       0x30 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_lib_ver.o)
+ .ARM.attributes
+                0x000003ba       0x30 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+ .ARM.attributes
+                0x000003ea       0x30 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+ .ARM.attributes
+                0x0000041a       0x18 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000432       0x16 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000448       0x18 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000460       0x18 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000478       0x18 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x00000490       0x18 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x000004a8       0x30 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x000004d8       0x30 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+
+.debug_frame    0x00000000      0xccc
+ .debug_frame   0x00000000      0x1e4 Debug\Drivers\cpu\adc.o
+ .debug_frame   0x000001e4       0x58 Debug\Drivers\cpu\aic.o
+ .debug_frame   0x0000023c       0xcc Debug\Drivers\cpu\dbgu.o
+ .debug_frame   0x00000308      0x104 Debug\Drivers\cpu\pio.o
+ .debug_frame   0x0000040c       0xe8 Debug\Drivers\cpu\pit.o
+ .debug_frame   0x000004f4       0xe4 Debug\Drivers\cpu\pmc.o
+ .debug_frame   0x000005d8       0x94 Debug\Drivers\cpu\timers.o
+ .debug_frame   0x0000066c       0x74 Debug\src\board_lowlevel.o
+ .debug_frame   0x000006e0       0xd8 Debug\src\board_memories.o
+ .debug_frame   0x000007b8      0x10c Debug\src\cp15.o
+ .debug_frame   0x000008c4       0x90 Debug\src\main.o
+ .debug_frame   0x00000954      0x1b4 Debug\src\stdio.o
+ .debug_frame   0x00000b08       0x34 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_exp.o)
+ .debug_frame   0x00000b3c       0x34 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-w_log.o)
+ .debug_frame   0x00000b70       0x38 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ .debug_frame   0x00000ba8       0x3c d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+ .debug_frame   0x00000be4       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_finite.o)
+ .debug_frame   0x00000c04       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x00000c24       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x00000c44       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_nan.o)
+ .debug_frame   0x00000c64       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000c84       0x20 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-errno.o)
+ .debug_frame   0x00000ca4       0x28 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libc.a(lib_a-memset.o)
+
+.debug_ranges   0x00000000       0x88
+ .debug_ranges  0x00000000       0x20 Debug\src\board_cstartup.o
+ .debug_ranges  0x00000020       0x18 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_exp.o)
+ .debug_ranges  0x00000038       0x38 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-e_log.o)
+ .debug_ranges  0x00000070       0x18 d:/ves2015/yagarto/bin/../lib/gcc/arm-none-eabi/4.5.1/../../../../arm-none-eabi/lib\libm.a(lib_a-s_fpclassify.o)

@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1229607946 source:d:\ves2015\examplebase2\drivers\cpu\aic.c
+	"aic.h"
+	<board.h>
+
+1229607946 d:\ves2015\examplebase2\drivers\cpu\aic.h
+	<board.h>
+
+1443521031 d:\ves2015\examplebase2\h\board.h
+	"AT91SAM9260.h"
+	"pio.h"
+	"cp15.h"
+	"trace.h"
+
+1229607882 d:\ves2015\examplebase2\h\at91sam9260.h
+
+1349340310 d:\ves2015\examplebase2\h\pio.h
+	<board.h>
+
+1229607882 d:\ves2015\examplebase2\h\cp15.h
+
+1348825522 d:\ves2015\examplebase2\h\trace.h
+	<board.h>
+	<dbgu.h>
+	<pio.h>
+	<stdio.h>
+
+1229607882 d:\ves2015\examplebase2\h\dbgu.h
+
+1349348602 source:d:\ves2015\examplebase2\drivers\cpu\dbgu.c
+	"dbgu.h"
+	<stdarg.h>
+	<board.h>
+	<stdio.h>
+
+1349340330 source:d:\ves2015\examplebase2\drivers\cpu\pio.c
+	"pio.h"
+	<board.h>
+
+1229607946 source:d:\ves2015\examplebase2\drivers\cpu\pit.c
+	"pit.h"
+	<board.h>
+
+1229607946 d:\ves2015\examplebase2\drivers\cpu\pit.h
+
+1348825534 source:d:\ves2015\examplebase2\drivers\cpu\pmc.c
+	"pmc.h"
+	<board.h>
+	<assert.h>
+	<trace.h>
+	<cp15.h>
+
+1229607882 d:\ves2015\examplebase2\h\pmc.h
+
+1229607882 d:\ves2015\examplebase2\h\assert.h
+	<stdio.h>
+	"trace.h"
+
+1349714510 source:d:\ves2015\examplebase2\drivers\cpu\timers.c
+	"..\..\h\board.h"
+	"pit.h"
+	"aic.h"
+	"timers.h"
+
+1349714008 d:\ves2015\examplebase2\drivers\cpu\timers.h
+
+1349716190 source:d:\ves2015\examplebase2\src\board_cstartup.s
+	"board.h"
+
+1349714178 source:d:\ves2015\examplebase2\src\board_lowlevel.c
+	"board.h"
+	"board_memories.h"
+	<pmc.h>
+
+1229607882 d:\ves2015\examplebase2\h\board_memories.h
+
+1348825416 source:d:\ves2015\examplebase2\src\board_memories.c
+	<board.h>
+	<pio.h>
+
+1349345330 source:d:\ves2015\examplebase2\src\cp15.c
+	<board.h>
+	<trace.h>
+	"cp15.h"
+	<intrinsics.h>
+
+1229607826 source:d:\ves2015\examplebase2\src\cp15_asm.s
+	"board.h"
+
+1447158485 source:d:\ves2015\examplebase2\src\main.c
+	<math.h>
+	<string.h>
+	"pio.h"
+	"cp15.h"
+	"trace.h"
+	"adc.h"
+	"..\Drivers\cpu\timers.h"
+
+1229607882 source:d:\ves2015\examplebase2\src\stdio.c
+	<stdio.h>
+	<stdarg.h>
+
+1447158017 source:d:\ves2015\examplebase2\drivers\cpu\adc.c
+	<board.h>
+	<adc.h>
+	<assert.h>
+
+1229611408 d:\ves2015\examplebase2\drivers\cpu\adc.h
+
