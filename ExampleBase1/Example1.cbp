@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Example3" />
+		<Option pch_mode="2" />
+		<Option compiler="armelfgcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Debug/xxx.elf" prefix_auto="0" extension_auto="0" />
+				<Option object_output="Debug" />
+				<Option type="1" />
+				<Option compiler="armelfgcc" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add option="-Dat91sam9260" />
+					<Add option="-DTRACE_LEVEL=4" />
+					<Add option="-Dsdram" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option='-T&quot;ld/sdram.ld&quot;' />
+					<Add option="-O0" />
+					<Add option="-Wl,-Map=link.map" />
+					<Add option="-nostartfiles -Wl,--gc-sections" />
+					<Add library="R:\_TUL\VES\yagarto\arm-none-eabi\lib\libm.a" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="arm-none-eabi-objcopy -O binary Debug/xxx.elf Debug/xxx.bin" />
+					<Add after="arm-none-eabi-size Debug/xxx.elf" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="Release/xxx.elf" prefix_auto="0" extension_auto="0" />
+				<Option object_output="Release" />
+				<Option type="1" />
+				<Option compiler="armelfgcc" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-g" />
+					<Add option="-Dat91sam9260" />
+					<Add option="-DTRACE_LEVEL=4" />
+					<Add option="-Dsdram" />
+				</Compiler>
+				<Linker>
+					<Add option='-T&quot;ld/sdram.ld&quot;' />
+					<Add option="-Os" />
+					<Add library="C:\ARM\yagarto\arm-none-eabi\lib\libm.a" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="arm-none-eabi-objcopy -O binary Release/xxx.elf Release/xxx.bin" />
+					<Add after="arm-none-eabi-size Release/xxx.elf" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-g" />
+			<Add option="-O2" />
+			<Add option="-fno-common" />
+			<Add directory="src" />
+			<Add directory="h" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+			<Add option="-Wl,-Map,map.txt" />
+		</Linker>
+		<Unit filename="Drivers/cpu/aic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/cpu/aic.h" />
+		<Unit filename="Drivers/cpu/pit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/cpu/pit.h" />
+		<Unit filename="Drivers/cpu/timers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Drivers/cpu/timers.h" />
+		<Unit filename="h/AT91SAM9260.h" />
+		<Unit filename="h/assert.h" />
+		<Unit filename="h/board.h" />
+		<Unit filename="h/board_memories.h" />
+		<Unit filename="h/cp15.h" />
+		<Unit filename="h/dbgu.h" />
+		<Unit filename="h/pio.h" />
+		<Unit filename="h/pmc.h" />
+		<Unit filename="h/trace.h" />
+		<Unit filename="src/board_cstartup.S">
+			<Option compilerVar="CC" />
+			<Option weight="100" />
+			<Option compiler="armelfgcc" use="0" buildCommand="$compiler  -g -Os  -Dat91sam9260 -D__ASSEMBLY__\n $includes -c $file -o $object" />
+		</Unit>
+		<Unit filename="src/board_lowlevel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/board_memories.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/cp15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/cp15_asm.S" />
+		<Unit filename="src/dbgu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/pmc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/stdio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<remote_debugging target="Release">
+					<options conn_type="0" serial_baud="115200" ip_address="localhost" ip_port="3333" additional_cmds="load" skip_ld_path="1" />
+				</remote_debugging>
+				<remote_debugging target="Debug">
+					<options conn_type="0" serial_baud="115200" ip_address="localhost" ip_port="3333" additional_cmds="load" skip_ld_path="1" />
+				</remote_debugging>
+			</debugger>
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
